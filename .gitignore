@@ -1,0 +1,23 @@
+# Vivado 临时和生成目录
+**/.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# Vivado 日志和中间产物
+*.jou
+*.log
+*.str
+*.pb
+*.dcp
+*.wdb
+*.bit
+*.bin
+*.ltx
+
+# 系统和编辑器文件
+.DS_Store
+*~

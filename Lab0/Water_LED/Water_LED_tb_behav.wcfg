@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Water_LED_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Water_LED_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="200.853 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="66"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wvobject type="logic" fp_name="/Water_LED_tb/CLK_i">
+      <obj_property name="ElementShortName">CLK_i</obj_property>
+      <obj_property name="ObjectShortName">CLK_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Water_LED_tb/RSTn_i">
+      <obj_property name="ElementShortName">RSTn_i</obj_property>
+      <obj_property name="ObjectShortName">RSTn_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Water_LED_tb/LED_o">
+      <obj_property name="ElementShortName">LED_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">LED_o[3:0]</obj_property>
+   </wvobject>
+</wave_config>
